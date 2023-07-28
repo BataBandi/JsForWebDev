@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cities of Europe</title>
+    <link href = 'styles.css' rel='stylesheet'/>
+    <link href='./css/bootstrap.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital,wght@1,300&family=Roboto+Condensed:wght@700&family=Sassy+Frass&family=Ubuntu:ital,wght@1,500&display=swap" 
+    rel="stylesheet">
+</head>
+<body>
+    <div class="preloader"><img src='./img/loading.gif' class='preloader-item'></div>
+    <div class="section2">
+        <div class="title-container">
+        <h1 id='title'>Famous Cities of Europe</h1>
+        </div>
+        <div class="category-container">
+            <button id='All'>All</button>
+            <button id='Ancient'>Ancient</button>
+            <button id='Medieval'>Medieval</button>
+            <button id='Modern'>Modern</button>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="Gallery">
+        <ul class="Cities">
+            <li id = 'Athene' class ='col-sm-4 col-md-3 col-lg-4 col-xl-2 citycontainer'>
+            <img class="img-thumbnail" src="./img/Athene.jpeg">
+                <h2 class="img-title">
+                    Athene
+                </h2>
+            </li>
+            <li id = 'Brugges' class ='col-sm-4 col-md-3 col-lg-3 col-xl-2 citycontainer'>
+            <img class="img-thumbnail" src="./img/Brugges.jpeg">
+                <h2 class="img-title">
+                    Brugges
+                </h2>
+            </li>
+        </ul>
+    </div>
+    <!-- The Modal -->
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
